@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
 }
 
 :root {
@@ -15,9 +16,7 @@
 
 body {
   background-image: url(assets/Background.png);
-  font-family: "Outfit", sans-serif;
   color: var(--white);
-
   overflow-y: hidden;
 }
 
@@ -72,7 +71,6 @@ main {
   color: var(--gray-01);
   font-size: 14px;
   font-weight: 500;
-  font-family: "Outfit", sans-serif;
   line-height: 140%;
 
   cursor: pointer;
