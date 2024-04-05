@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #FFF;
+  --gray-01: #D6D6F2;
+  --gray-02: #E2E2F5;
+  --purple: #BF7BFB;
+  --blue-light: #212187;
+  --blue: #151557;
+}
+
+body {
+  background-image: url(assets/Background.png);
+  font-family: "Outfit", sans-serif;
+  color: var(--white);
+
+  overflow-y: hidden;
+}
+
+main {
+  margin: auto 5rem;
+  height: 100vh;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  max-width: 380px;
+  gap: 56px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.info h1 {
+  color: var(--gray-01);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.info p {
+  color: var(--gray-01);
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+.action {
+  display: flex;
+  gap: 16px;
+}
+
+.action button{
+  padding: 12px 24px;
+
+  border: none;
+  border-radius: 999px;
+  background: var(--blue);
+  
+  color: var(--gray-01);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease-out;
+}
+
+.action button:hover {
+  background: var(--blue-light);
+  color: var(--gray-02);
+}
+
+.image img {
+  width: 100%;
+}
