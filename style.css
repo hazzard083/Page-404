@@ -72,6 +72,7 @@ main {
   color: var(--gray-01);
   font-size: 14px;
   font-weight: 500;
+  font-family: "Outfit", sans-serif;
   line-height: 140%;
 
   cursor: pointer;
